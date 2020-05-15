@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d65c8b0d-53fd-4482-b196-fa363f9f8994" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bwYEQrZaRDEcaOdb5qTdMIvPFz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d65c8b0d-53fd-4482-b196-fa363f9f8994" name="Default Changelist" comment="" />
+      <created>1589544511107</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589544511107</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="451" y="94" key="#Project_Structure" timestamp="1589546709961">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="451" y="94" key="#Project_Structure/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589546709961" />
+    <state x="720" y="147" key="#com.intellij.ide.util.MemberChooser" timestamp="1589557908447">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="720" y="147" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589557908447" />
+    <state x="465" y="430" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589559121803">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="465" y="430" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589559121803" />
+    <state x="626" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589552245871">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="626" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589552245871" />
+    <state x="590" y="301" key="com.intellij.ide.util.TipDialog" timestamp="1589544513574">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="590" y="301" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589544513574" />
+  </component>
+</project>
