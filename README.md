@@ -31,7 +31,7 @@ Permite:
 
 En este caso Drone y Clark implementan los métodos: desplazarHacia, dejarMercadería, recogerMercaderia, volverAInicio de forma distinta.
 
-**Pendiente:**
+## Pendiente:
 
 - Resolver como repartir la mercadería a entregar entre los robots disponibles en el depósito.
 - Agregar uso de Patrón Observer en robot para chequear cuando esta libre y asignarle tarea.
