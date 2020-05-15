@@ -1,6 +1,6 @@
 # DepositoAutomatizado
 
-Patrones Aplicados:
+## Patrones Aplicados:
 
 **Patrón state en Robot:**
 Para modificar el comportamiento del Robot, si está "ocupado", al decirle que busque una mercaderia no realiza acción alguna, luego de terminar sus tareas se libera para poder buscar otra mercadería. 
