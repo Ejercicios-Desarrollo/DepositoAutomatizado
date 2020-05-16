@@ -4,13 +4,13 @@ import java.util.List;
 
 public class Transportista {
     private String nombre;
-    private List<Mercaderia> mercaderias;
+    private List<Paquete> paquetes;
 
     public Transportista(String nombre){
         this.nombre = nombre;
     }
 
-    public void notificarPaqueteCompleto(List<Mercaderia> mercaderiasRecibidas){
-        this.mercaderias.addAll(mercaderiasRecibidas);
+    public void notificarPaqueteCompleto(Pedido pedido){
+        this.paquetes.add(new Paquete(pedido.getMercaderias(), pedido.getCliente()));
     }
 }

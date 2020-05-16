@@ -45,12 +45,15 @@ public class Deposito {
         List<Compartimiento> compartimientos = mercaderias.stream().map(m -> m.getCompartimiento()).collect(Collectors.toList());
         List<Recorrido> recorridos = compartimientos.stream().map(c -> c.getRecorrido()).collect(Collectors.toList());
 
-        // this.robots.parallelStream().forEach(r -> r.buscarMercaderia());
+        // robots libres
+        List<Robot> robotsLibres = this.robots.stream().filter(r -> r.getEstado().equals("Libre")).collect(Collectors.toList());
+
+        // this.robotsLibres.parallelStream().forEach(r -> r.buscarMercaderia());
 
         if(verificarMercaderias(pedido)){
-            this.pedidos.remove(0);
             // avisar transportista
-            this.transportista.notificarPaqueteCompleto(mercaderias);
+            this.transportista.notificarPaqueteCompleto(pedido);
+            this.pedidos.remove(0);
         }
     }
 

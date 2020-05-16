@@ -37,6 +37,10 @@ public abstract class Robot {
         return tiempoEspera;
     }
 
+    public String getEstado(){
+        return this.estado.getEstado();
+    }
+
     public void buscarMercaderia(Recorrido recorrido) {
         recorrido.getOrdenes().stream().forEach(o -> o.ejecutar(this));
     }

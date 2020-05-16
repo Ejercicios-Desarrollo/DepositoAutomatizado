@@ -8,4 +8,9 @@ public class Ocupado implements Estado {
     public void buscarMercaderia(Recorrido recorrido, Robot robot) {
 
     }
+
+    @Override
+    public String getEstado() {
+        return "Ocupado";
+    }
 }

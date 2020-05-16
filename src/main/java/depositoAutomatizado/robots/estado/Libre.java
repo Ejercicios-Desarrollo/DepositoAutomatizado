@@ -9,4 +9,9 @@ public class Libre implements Estado {
     public void buscarMercaderia(Recorrido recorrido, Robot robot) {
         robot.buscarMercaderia(recorrido);
     }
+
+    @Override
+    public String getEstado() {
+        return "Libre";
+    }
 }
