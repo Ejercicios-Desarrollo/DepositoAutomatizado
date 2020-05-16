@@ -2,6 +2,7 @@ package depositoAutomatizado.robots;
 
 import depositoAutomatizado.*;
 import depositoAutomatizado.robots.estado.Libre;
+import depositoAutomatizado.robots.estado.Ocupado;
 
 public class Drone extends Robot{
     public Drone(Punto puntoInicio, Integer tiempoEspera) {
@@ -10,6 +11,7 @@ public class Drone extends Robot{
 
     @Override
     public void desplazarHacia(Punto punto) {
+        this.estado = new Ocupado();
         if(punto.isLibre()){
             this.puntoAcual = punto;
         }
@@ -32,6 +34,7 @@ public class Drone extends Robot{
     public void volverAInicio() {
         this.puntoAcual = puntoInicio;
         this.estado = new Libre();
+        this.notificar();
     }
 
     @Override

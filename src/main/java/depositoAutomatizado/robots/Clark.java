@@ -4,6 +4,7 @@ import depositoAutomatizado.Compartimiento;
 import depositoAutomatizado.Punto;
 import depositoAutomatizado.PuntoConsolidacion;
 import depositoAutomatizado.robots.estado.Libre;
+import depositoAutomatizado.robots.estado.Ocupado;
 
 public class Clark extends Robot{
     public Clark(Punto puntoInicio, Integer tiempoEspera) {
@@ -12,6 +13,7 @@ public class Clark extends Robot{
 
     @Override
     public void desplazarHacia(Punto punto) {
+        this.estado = new Ocupado();
         if(punto.isLibre()){
             this.puntoAcual = punto;
         }
@@ -34,6 +36,7 @@ public class Clark extends Robot{
     public void volverAInicio() {
         this.puntoAcual = puntoInicio;
         this.estado = new Libre();
+        this.notificar();
     }
 
     @Override
