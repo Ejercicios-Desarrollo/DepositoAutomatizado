@@ -49,6 +49,8 @@ public class Deposito {
         List<Robot> robotsLibres = this.robots.stream().filter(r -> r.getEstado().equals("Libre")).collect(Collectors.toList());
 
         // this.robotsLibres.parallelStream().forEach(r -> r.buscarMercaderia());
+        // r -> r.buscarMercaderia(recorridos.get(0)), recorridos.remove(0), iterar
+        // observer que notifica cuando robot esta libre, y le asigno un recorrido pendiente
 
         if(verificarMercaderias(pedido)){
             // avisar transportista
