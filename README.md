@@ -35,9 +35,8 @@ En este caso Drone y Clark implementan los métodos: desplazarHacia, dejarMercad
 Permite notificar al Depósito cuando un Robot está libre para asignarle uno de los recorridos pendientes, de los que no se pudieron hacer al momento de atender el pedido.
 
 Esto proporciona:
-- Mayor cohesión a la clase Sujeto.
-- Mayor mantenibilidad debido a que el comportamiento establecido por cada
-observador es facilmente localizable.
+- Mayor cohesión a la clase Robot.
+- Mayor mantenibilidad debido a que el comportamiento establecido por cada observador es facilmente localizable.
 - Extensibilidad a causa del desacoplamiento entre acción – reacción.
 
 ## Pendiente
